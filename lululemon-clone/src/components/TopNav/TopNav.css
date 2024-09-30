@@ -1,0 +1,16 @@
+.top_nav {
+  background-color: red;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-top_nav {
+  font-size: 15px;
+}
+
+.button-top_nav {
+  margin-left: 5px;
+  text-decoration: underline;
+}
