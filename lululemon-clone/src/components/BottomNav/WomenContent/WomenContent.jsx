@@ -1,3 +1,5 @@
+import "./WomenContent.css";
+
 export const WomenContent = () => {
   return (
     <div className="women_content">
@@ -33,7 +35,7 @@ export const WomenContent = () => {
           </div>
           <div className="middle-middle-upper-women_content">
             <ul>
-              <li></li>
+              <li>.</li>
               <li>Polo Shirts</li>
               <li>Shirts</li>
               <li>Shoes</li>
@@ -70,17 +72,19 @@ export const WomenContent = () => {
           <span>Shop On The App </span>
         </div>
       </div>
-      <div className="lower-women_content">
-        <div>ACTIVITY</div>
-        <div>
-          <span>Running</span>
-          <span>Workout</span>
-          <span>Casual</span>
-          <span>Yoga</span>
-          <span>Golf</span>
-          <span>Tennis</span>
+      <div className="lower-women">
+        <div className="lower-women_content">
+          <div className="left-lower-women_content">ACTIVITY</div>
+          <div className="middle-lower-women_content">
+            <span>Running</span>
+            <span>Workout</span>
+            <span>Casual</span>
+            <span>Yoga</span>
+            <span>Golf</span>
+            <span>Tennis</span>
+          </div>
+          <div className="right-lower-women_content">SHOP ALL WOMEN</div>
         </div>
-        <div>SHOP ALL WOMEN</div>
       </div>
     </div>
   );
