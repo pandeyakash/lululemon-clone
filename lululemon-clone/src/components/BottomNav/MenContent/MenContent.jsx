@@ -1,3 +1,5 @@
+import "./MenContent.css";
+
 export const MenContent = () => {
   return (
     <div className="men_content">
@@ -70,17 +72,19 @@ export const MenContent = () => {
           <span>Shop Coats & Jackets</span>
         </div>
       </div>
-      <div className="lower-men_content">
-        <div>ACTIVITY</div>
-        <div>
-          <span>Golf</span>
-          <span>Running</span>
-          <span>Workout</span>
-          <span>Casual</span>
-          <span>Yoga</span>
-          <span>Tennis</span>
+      <div className="lower-men">
+        <div className="lower-men_content">
+          <div className="left-lower-men_content">ACTIVITY</div>
+          <div className="middle-lower-men_content">
+            <span>Golf</span>
+            <span>Running</span>
+            <span>Workout</span>
+            <span>Casual</span>
+            <span>Yoga</span>
+            <span>Tennis</span>
+          </div>
+          <div className="right-lower-men_content">SHOP ALL MEN</div>
         </div>
-        <div>SHOP ALL MEN</div>
       </div>
     </div>
   );

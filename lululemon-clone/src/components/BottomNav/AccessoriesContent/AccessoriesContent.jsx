@@ -1,3 +1,5 @@
+import "./AccessoriesContent.css";
+
 export const AccessoriesContent = () => {
   return (
     <div className="accessories_content">
@@ -63,17 +65,21 @@ export const AccessoriesContent = () => {
           <span>Shop Bags</span>
         </div>
       </div>
-      <div className="lower-accessories_content">
-        <div>ACTIVITY</div>
-        <div>
-          <span>Yoga</span>
-          <span>Running</span>
-          <span>Workout</span>
-          <span>Casual</span>
-          <span>Travel</span>
-          <span>Tennis</span>
+      <div className="lower-accessories">
+        <div className="lower-accessories_content">
+          <div className="left-lower-accessories_content">ACTIVITY</div>
+          <div className="middle-lower-accessories_content">
+            <span>Yoga</span>
+            <span>Running</span>
+            <span>Workout</span>
+            <span>Casual</span>
+            <span>Travel</span>
+            <span>Tennis</span>
+          </div>
+          <div className="right-lower-accessories_content">
+            SHOP ALL ACCESSORIES
+          </div>
         </div>
-        <div>SHOP ALL ACCESSORIES</div>
       </div>
     </div>
   );
