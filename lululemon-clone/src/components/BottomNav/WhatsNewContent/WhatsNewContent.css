@@ -1,0 +1,13 @@
+.whatsnew_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.left-whatsnew_content {
+  width: 40%;
+}
+
+.right-whatsnew_content {
+  width: 15%;
+}

@@ -1,3 +1,5 @@
+import "./WhatsNewContent.css";
+
 export const WhatsNewContent = () => {
   return (
     <div className="whatsnew_content">
