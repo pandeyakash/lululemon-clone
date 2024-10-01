@@ -1,0 +1,69 @@
+.shoes_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+.upper-shoes_content {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-upper-shoes_content {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-left-upper-shoes_content {
+  border-right: 2px solid lightgray;
+  width: 50%;
+}
+
+.right-upper-shoes_content {
+  width: 20%;
+}
+
+.lower-shoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: rgb(232, 243, 247);
+  height: 50px;
+  align-items: center;
+}
+
+.lower-shoes_content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-lower-shoes_content {
+  width: 20%;
+  border-right: 2px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.middle-lower-shoes_content {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-lower-shoes_content {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
