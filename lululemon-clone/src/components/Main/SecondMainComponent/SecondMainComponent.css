@@ -1,0 +1,12 @@
+.second-main-component {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.second-main-component-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
