@@ -2,6 +2,7 @@ import { PiecesOfTheAction } from "./PiecesOfTheAction/PiecesOfTheAction";
 import { SecondMainComponent } from "./SecondMainComponent/SecondMainComponent";
 import { FourthMainSection } from "./FourthMainSection/FourthMainSection";
 import "./Main.css";
+import { FifthMainComponent } from "./FifthMainComponent/FifthMainCompnent";
 
 export const Main = () => {
   return (
@@ -15,6 +16,7 @@ export const Main = () => {
           description="Want to come out and play?"
           btntext="LEARN MORE"
         />
+        <FifthMainComponent />
       </div>
     </div>
   );
