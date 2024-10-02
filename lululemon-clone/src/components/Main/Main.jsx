@@ -6,6 +6,7 @@ import { FifthMainComponent } from "./FifthMainComponent/FifthMainCompnent";
 import { SeventhMainComponent } from "./SeventhMainComponent/SeventhMainComponent";
 import { EighthMainComponent } from "./EighthMainComponent/EighthMainComponent";
 import { NinthMainComponent } from "./NinthMainComponent/NinthMainComponent";
+import { TenthMainComponent } from "./TenthMainComponent/TenthMainComponent";
 
 export const Main = () => {
   return (
@@ -29,6 +30,7 @@ export const Main = () => {
           btn2text="SHOP BY COLOR"
         />
         <NinthMainComponent />
+        <TenthMainComponent />
       </div>
     </div>
   );
