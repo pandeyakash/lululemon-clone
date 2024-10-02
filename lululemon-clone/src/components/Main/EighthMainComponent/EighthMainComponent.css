@@ -1,0 +1,34 @@
+.eighth-main-component {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.eighth-main-component-container {
+  width: 88%;
+}
+
+.eighth-main-component-container > .img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.eighth-main-component-container > .img > img {
+  width: 100%;
+}
+
+.eighth-main-component-container > h2 {
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+.eighth-main-component-container > p {
+  margin-bottom: 12px;
+}
+
+.eighth-main-component-container > .buttons {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+}
