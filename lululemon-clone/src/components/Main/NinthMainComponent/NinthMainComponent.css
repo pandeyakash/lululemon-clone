@@ -1,0 +1,19 @@
+.ninth-main-component {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.ninth-main-component-container {
+  width: 88%;
+  display: flex;
+}
+.column {
+  width: 25%;
+}
+
+.heading {
+  font-weight: 700;
+  margin-bottom: 30px;
+}

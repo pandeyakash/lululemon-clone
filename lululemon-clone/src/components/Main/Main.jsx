@@ -5,6 +5,7 @@ import "./Main.css";
 import { FifthMainComponent } from "./FifthMainComponent/FifthMainCompnent";
 import { SeventhMainComponent } from "./SeventhMainComponent/SeventhMainComponent";
 import { EighthMainComponent } from "./EighthMainComponent/EighthMainComponent";
+import { NinthMainComponent } from "./NinthMainComponent/NinthMainComponent";
 
 export const Main = () => {
   return (
@@ -27,6 +28,7 @@ export const Main = () => {
           btn1text="SHOP WUNDER UNDER"
           btn2text="SHOP BY COLOR"
         />
+        <NinthMainComponent />
       </div>
     </div>
   );
