@@ -1,0 +1,13 @@
+.WMTM_content {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.left-WMTM_content {
+  width: 40%;
+}
+
+.right-WMTM_content {
+  width: 15%;
+}

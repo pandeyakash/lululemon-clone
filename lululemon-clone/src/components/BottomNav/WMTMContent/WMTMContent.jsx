@@ -1,3 +1,5 @@
+import "./WMTMContent.css";
+
 export const WMTMContent = () => {
   return (
     <div className="WMTM_content">

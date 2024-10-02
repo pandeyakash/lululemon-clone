@@ -8,7 +8,6 @@ export const NavBar = () => {
       <TopNav />
       <MiddleNav />
       <BottomNav />
-      <h2>Hello from NavBar</h2>
     </div>
   );
 };
