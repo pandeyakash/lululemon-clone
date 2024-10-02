@@ -1,0 +1,33 @@
+.fourth-main-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+
+.fourth-main-section-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fourth-main-section-container > .img {
+  width: 100%;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.fourth-main-section-container > .img > img {
+  width: 100%;
+}
+
+.fourth-main-section-container > h2 {
+  font-size: 25px;
+  margin-bottom: 12px;
+}
+
+.fourth-main-section-container > p {
+  margin-bottom: 12px;
+}
