@@ -1,11 +1,11 @@
-.fifth-main-component {
+.seventh-main-component {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
 }
 
-.fifth-main-component-container {
+.seventh-main-component-container {
   width: 90%;
   display: flex;
   justify-content: space-between;

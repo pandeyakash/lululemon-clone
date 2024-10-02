@@ -13,3 +13,20 @@
     cursor: pointer;
   }
 }
+
+.button-component-reverse {
+  background-color: black;
+  color: white;
+  padding: 18px 15px 18px 15px;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+}

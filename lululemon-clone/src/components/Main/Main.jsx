@@ -3,6 +3,7 @@ import { SecondMainComponent } from "./SecondMainComponent/SecondMainComponent";
 import { FourthMainSection } from "./FourthMainSection/FourthMainSection";
 import "./Main.css";
 import { FifthMainComponent } from "./FifthMainComponent/FifthMainCompnent";
+import { SeventhMainComponent } from "./SeventhMainComponent/SeventhMainComponent";
 
 export const Main = () => {
   return (
@@ -17,6 +18,7 @@ export const Main = () => {
           btntext="LEARN MORE"
         />
         <FifthMainComponent />
+        <SeventhMainComponent />
       </div>
     </div>
   );
