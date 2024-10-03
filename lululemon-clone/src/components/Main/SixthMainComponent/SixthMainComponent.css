@@ -1,0 +1,25 @@
+.sixth-main-component {
+  width: 100%;
+}
+
+.sixth-main-component-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.corousel {
+  margin-bottom: 35px;
+}
+
+.button {
+  width: 90%;
+  margin-top: 35px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}

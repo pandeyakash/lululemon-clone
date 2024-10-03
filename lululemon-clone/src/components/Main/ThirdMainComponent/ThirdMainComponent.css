@@ -58,6 +58,7 @@
 .single-item-container > .img {
   width: 100%;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .single-item-container > .info {
@@ -68,6 +69,7 @@
 
 .single-item-container > .info > .title {
   font-weight: 700;
+  cursor: pointer;
 }
 
 .single-item-container > .img > img {
