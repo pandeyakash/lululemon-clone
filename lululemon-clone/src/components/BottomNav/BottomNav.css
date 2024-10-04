@@ -1,5 +1,5 @@
 .bottom_nav {
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,14 +10,20 @@
 }
 
 .logo-bottom_nav {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 5%;
   display: flex;
   justify-content: center;
 }
 
+.logo-bottom_nav > img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
 .drop_down-bottom_nav {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 50%;
   height: 100%;
   display: flex;
@@ -26,7 +32,7 @@
 }
 
 .right-bottom_nav {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 30%;
   display: flex;
   justify-content: space-between;
@@ -35,7 +41,7 @@
 }
 
 .search-bottom_nav {
-  background-color: brown;
+  /* background-color: brown; */
   width: 60%;
   height: 100%;
   border: 1px solid black;
@@ -60,13 +66,14 @@
 
 .dropdown-button {
   cursor: pointer;
+  font-weight: 700;
 }
 
 .dropdown-content {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #f9f9f9;
+  background-color: white;
   width: 100vw;
   min-width: 200px;
   padding: 10px;

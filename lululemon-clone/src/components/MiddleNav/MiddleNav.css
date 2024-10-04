@@ -1,7 +1,7 @@
 .middle_nav {
   display: flex;
   justify-content: flex-end;
-  background-color: aqua;
+  background-color: #fafafa;
   height: 30px;
   align-items: center;
 }

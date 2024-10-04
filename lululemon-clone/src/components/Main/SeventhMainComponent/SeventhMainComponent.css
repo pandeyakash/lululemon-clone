@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
-  margin-top: 70px;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 .seventh-main-component-container {

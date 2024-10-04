@@ -20,12 +20,12 @@
 }
 
 .square-box {
-  position: absolute; /* Allows the box to be positioned over the image */
-  top: 70px; /* Adjust to position the box vertically */
-  left: -90px; /* Adjust to position the box horizontally */
+  position: absolute;
+  top: 70px;
+  left: -90px;
   width: 200px;
   height: 300px;
-  background-color: white; /* Semi-transparent background */
+  background-color: #fafafa;
   color: black;
   display: flex;
   flex-direction: column;
